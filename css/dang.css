@@ -1,0 +1,487 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+}
+
+.top3, .footer, .menu, .center, .right, .mid, .center1, .center2, .center3, .mid, .midhead, .midtop, .middown, .midright {
+  border: 1px red solid;
+}
+
+.top {
+  margin: auto;
+}
+
+.nav {
+  background-color: #f2f2f2;
+  line-height: 32px;
+  color: #646464;
+}
+
+.top1 {
+  width: 1200px;
+  height: 32px;
+  margin: auto;
+}
+
+.top1left {
+  height: 32px;
+}
+
+.login {
+  color: red;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #646464;
+}
+
+.link:hover {
+  color: red;
+}
+
+.top-menu {
+  list-style: none;
+}
+
+.top-menu li {
+  float: left;
+  padding: 0 5px 0 5px;
+}
+
+.top-menu .seprate {
+  margin: 0;
+  color: #d0caca;
+}
+
+.top1right {
+  height: 32px;
+}
+
+.top2 {
+  width: 1200px;
+  height: 100px;
+  margin: auto;
+}
+
+.left-top2 {
+  float: left;
+  width: 362px;
+}
+
+.mid-top2 {
+  float: left;
+  height: 100px;
+  width: 580px;
+}
+
+.mid-top2-t {
+  margin-top: 20px;
+}
+
+.mid-top2-d {
+  clear: both;
+  height: 30px;
+  line-height: 30px;
+  color: #969696;
+}
+
+.mid-top2-d a {
+  text-decoration: none;
+  color: #969696;
+}
+
+.mid-top2-d a:hover {
+  color: #ff2832;
+  text-decoration: underline;
+}
+
+#search_hot {
+  margin-right: 0px;
+}
+
+#sim_search {
+  margin-right: 195px;
+}
+
+.mid-top2-tborder {
+  float: left;
+}
+
+.mid-top2-text {
+  float: left;
+}
+
+.my-text {
+  width: 398px;
+  padding: 12px 0px 10px 10px;
+  border: 2px solid #ff2832;
+  border-right: 0px none #fff;
+  outline: none;
+}
+
+.mid-from {
+  position: relative;
+  float: right;
+  background-color: #f6f6f6;
+  color: #969696;
+  cursor: pointer;
+  width: 104px;
+  text-align: center;
+  padding: 7px 0px 8px 0px;
+  border: 2px solid #ff2832;
+  border-left: none;
+}
+
+.mid-from .kinds {
+  display: none;
+}
+
+.kinds {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  background-color: #fff;
+  width: 106px;
+  border: 1px solid #dedede;
+}
+
+.mid-from .kinds li {
+  line-height: 24px;
+  color: #646464;
+  padding: 0 25px 0 5px;
+  font: 12px/24px 'Hiragino Sans GB', "simsun";
+}
+
+.mid-from:hover .kinds {
+  display: block;
+}
+
+#assort {
+  font-size: 16px
+}
+
+.right-top2 {
+  float: right;
+  margin-top: 20px;
+  background-color: #f2f2f2;
+}
+
+.btn {
+  color: #fff;
+  background-color: #ff2832;
+  line-height: 25px;
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 14px;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: 2px solid #ff2832;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #ff2832;
+  border-color: #969696;
+  background: #f2f2f2;
+}
+
+.disabled {
+  border: 2px solid #969696;
+  background: #f6f6f6;
+  color: #646464;
+  border-left: none;
+  cursor: pointer;
+}
+
+.button {
+  top: 0px;
+  height: 39px;
+  width: 48px;
+  float: left;
+}
+
+.button .search {
+  width: 50px;
+  height: 41px;
+  background: url(search.jpeg);
+  border: 1px solid #ff2832;
+  cursor: pointer;
+}
+
+.top3 {
+  clear: both;
+}
+
+.main {
+  width: 1200px;
+  margin: auto;
+  height: 916px;
+  border: 1px solid blue;
+}
+
+.menu, .center, .midhead, .midtop, .top1left {
+  float: left;
+}
+
+.right, .midright, .top1right {
+  float: right;
+}
+
+.menu {
+  width: 190px;
+  height: 881px;
+}
+
+.center {
+  width: 750px;
+  height: 881px;
+  margin-left: 7px;
+}
+
+.center1 {
+  width: 750px;
+  height: 315px;
+}
+
+.center2 {
+  width: 750px;
+  height: 43px;
+}
+
+.center3 {
+  width: 750px;
+}
+
+.right {
+  width: 240px;
+  height: 881px;
+}
+
+.mid {
+  clear: both;
+  width: 1200px;
+  margin: auto;
+  height: 400px;
+}
+
+.midhead {
+  width: 950px;
+  height: 400px;
+}
+
+.midtop {
+  width: 950px;
+  height: 50px;
+}
+
+.midright {
+  width: 240px;
+  height: 400px;
+}
+
+.middown {
+  clear: both;
+  width: 950px;
+  height: 350px;
+}
+
+.footer {
+  clear: both;
+  width: 1200px;
+  margin: auto;
+}
+
+.top1left {
+  position: relative;
+  cursor: pointer;
+}
+
+.top1left .citys {
+  position: absolute;
+  width: 220px;
+  padding: 5px;
+  border: 1px solid #efefef;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  background-color: #fff;
+  display: none;
+}
+
+.citys span {
+  padding: 0 0 0 10px;
+}
+
+.top1left:hover {
+  background-color: #fff;
+}
+
+.top1left:hover .citys {
+  display: block;
+  border-top: none;
+}
+
+#call, #myDang {
+  position: relative;
+  cursor: pointer;
+}
+
+#call .phonesever {
+  position: absolute;
+  padding: 5px;
+  border: 1px solid #efefef;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  background-color: #fff;
+  display: none;
+  white-space: nowrap;
+  text-align: center;
+  border-top: none;
+}
+
+#call:hover {
+  color: #ff0000;
+  background-color: #fff
+}
+
+#call:hover .phonesever {
+  display: table;
+}
+
+.severapp {
+  text-decoration: none;
+  color: #646464;
+}
+
+.phonebox {
+  display: table-cell;
+  padding: 0px 10px 0px 10px;
+}
+
+#myDang .myDangmenu {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  border: 1px solid #efefef;
+  z-index: 1000;
+  background-color: #fff;
+  display: none;
+  width: 83px
+}
+
+.my-menu {
+  list-style: none;
+}
+
+#myDang:hover {
+  color: #ff0000;
+  background-color: #fff;
+}
+
+#myDang:hover .myDangmenu {
+  border-top: none;
+}
+
+#myDang .myDangmenu .my-menu li {
+  color: #646464;
+  line-height: 22px
+}
+
+#myDang:hover .myDangmenu {
+  display: block;
+}
+
+.top3C {
+  width: 1200px;
+  margin: auto;
+  height: 40px;
+}
+
+#top3CL {
+  float: left;
+  width: 191px;
+  padding-left: 20px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #ff2832;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+}
+
+#top3CL .facesize {
+  font: 14px/40px "Microsoft Yahei";
+}
+
+#top3CL .top3-kinds {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  background-color: #fff;
+  color: #323232;
+  padding: 0 0px 0 20px;
+  width: 190px;
+  display: none;
+  box-shadow: #e4dfdf 0px 2px 10px 2px;
+}
+
+.top3-kinds li {
+  font: 14px/34px "Microsoft Yahei";
+}
+
+#top3CL:hover .top3-kinds {
+  display: block;
+}
+
+.top3CR-menu {
+  color: #323232;
+  list-style: none;
+  cursor: pointer;
+}
+
+.top3CR-menu li {
+  float: left;
+  padding: 0 15px;
+  text-align: center;
+  font: 14px/40px "Microsoft Yahei";
+  font-weight: bold;
+}
+
+.top3CR-menu li:hover {
+  color: #ff2832;
+}
+
+.top3d {
+  border-top: 2px solid #ff2832;
+}
+
+.top3d-classify {
+  margin-left: 24px;
+  list-style: none;
+  color: #646464;
+  overflow: hidden;
+}
+
+.top3d-classify li {
+  float: left;
+  line-height: 12px;
+  padding: 0 15px;
+  margin: 10px 0 10px 0;
+  text-align: center;
+  cursor: pointer;
+  border-right: 1px solid #dcdcdc;
+}
+
+.top3d-classify li:last-child {
+  border: none !important;
+}
+
+.top3d-classify li:hover {
+  color: #ff2832;
+}
